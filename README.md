@@ -26,6 +26,10 @@ a translated first post that shows the i18n mechanism.
   without an `author:` line shows this name.
 - `content/home/default.md` (and `.de.md`, `.fr.md`) -- the markdown body
   of the home page fills the intro card, per language.
+- `themes/papermood/assets/css/partials/_variables.scss` -- colors,
+  widths, fonts, and breakpoints. The stylesheet is SCSS, and Accent
+  compiles it at build time; the theme's README explains how to override
+  the values.
 
 The vendored theme lives in `themes/papermood`, installed from the hub.
 `accent theme update` tracks new releases once you reinstall it from the

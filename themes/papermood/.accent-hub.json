@@ -1,7 +1,7 @@
 {
   "kind": "theme",
   "name": "papermood",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "accentx",
   "pricing_model": "free",
   "purchase_url": null,
@@ -9,7 +9,22 @@
   "registry_url": "https://raw.githubusercontent.com/AccentCMS/hub-registry/main",
   "integrity": "checksum-verified",
   "files": {
-    "assets/css/papermood.css": "693a5f37ea6adac6417b13f57888ed6a038d01a5a0e1431dbf07600a743459f5",
+    "assets/css/papermood.scss": "904795d1c524702eef02b1e36df21a387920fa8d5941a058124a695d7882d4ee",
+    "assets/css/partials/_components.scss": "debd23be15aeb313cb5dc142e4ae7f2ce08a30865624b6834cb1a0b45d9d7e3d",
+    "assets/css/partials/_content.scss": "981fdde6d441cb83e9a569636b703e54538eada195e08699e6df81754bcf3588",
+    "assets/css/partials/_diagrams.scss": "2d8e77d6f9733b84c78f9f2facaf0c0fbca1d9c5b8212a28d251e8e927061aa7",
+    "assets/css/partials/_footer.scss": "98101a62497b65ed0e850a76bdb0399dee1c29aef26059b08379f6d82f162e43",
+    "assets/css/partials/_header.scss": "5f15a477c7b689ee0addbca040754f8472d7402ce34ac8040c7889795f99d202",
+    "assets/css/partials/_listings.scss": "0c78e14626eff6b55478475f749d2019a044d5a1154e5593176fdcd758af1261",
+    "assets/css/partials/_main.scss": "b052907d60661914cc536a6ae995d594d86a82a392fe40b4642e1b84bf7e55ab",
+    "assets/css/partials/_markdown-extensions.scss": "978fe18a6acd0e3972f9a0ce712ab25e5dc13e1dd7eb8646a7cce991b11c50a1",
+    "assets/css/partials/_mixins.scss": "20e0ecf1b988e595c1a5bf0f549c12ad3e862e320c1ea88239a5ef860040d908",
+    "assets/css/partials/_post-entry.scss": "ba1d2cffd7f4f362f47cb252ed71be2e24d9d606038aa7a2e17b5e22e850b575",
+    "assets/css/partials/_post-single.scss": "bfcdc2005c7002c6cc01aa5cb6d8f6665ef875d8f229adabdfe836dfebf6a1a8",
+    "assets/css/partials/_reset.scss": "20e53a3bd6b4fa76ba9f0485efec862c9bfc6e380f88d8b463fdf8dd40628ad7",
+    "assets/css/partials/_responsive.scss": "feeb4eec640446390216aab51eab08396ad0722493ee9733082ed1e81bddb9c9",
+    "assets/css/partials/_tokens.scss": "eec25932c3718848c9ec6d7e791fb4d0846c2d1bc35ccb6ca7185d12ff7bc80b",
+    "assets/css/partials/_variables.scss": "b6a641912d0a82f47054c1aee65106e5a3507fcfb58da0eba54c0cf9ac653915",
     "assets/favicon.svg": "e58afa18e005dc1a7375a4cb896ddb458b814a8e42515ea17a9996260856fafc",
     "assets/js/papermood.js": "9cc8a18e1947b38032fdce663f4e7b6ec486075be8e5c8025fcdd978e2f68793",
     "assets/js/tabs.js": "55b32bf0942f8d99035fcad8faa9d38bc1bff07dfb086308dc9f847387bfc5ca",
@@ -58,6 +73,6 @@
     "templates/search.html.jinja": "24c5e66b2bd112a76773eafaa0256ad3f0df4ad3cf018b9f942cbd03e676a8bf",
     "templates/tag.html.jinja": "4cc5ac89455597d5e05fdc2b1ab871fca4cd7ac0399593b564f87d5a06302042",
     "templates/tags.html.jinja": "2ac6adb2f30e7e53c57465001597349f2093489d9194992ae2e78395b999b095",
-    "theme.yaml": "3603e53fd4291d024e1d32cbc06e69e233510479bbed2c94a3d0fa7fb313d92d"
+    "theme.yaml": "4f82f5c37acab1be98a0e4807702c32e96f0a5f3f5f2087945df679fa9100734"
   }
 }
