@@ -1,0 +1,7 @@
+# Local caches generated at runtime.
+.accent/
+.media-cache/
+.diagram-cache/
+
+# Admin shell scratch directory: audit log, future scratch state.
+.admin/

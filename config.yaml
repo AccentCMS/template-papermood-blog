@@ -1,0 +1,67 @@
+server:
+  address: "127.0.0.1"
+  port: 4400
+
+content:
+  directory: "./content"
+
+theme:
+  name: "papermood"
+  directory: "./themes"
+
+site:
+  name: "My Blog"
+  description: "A blog built with Accent CMS and the Papermood theme."
+  # Set this to your site's public URL before you deploy; feeds and
+  # social tags use it for absolute links.
+  url: "https://example.com"
+  language: en            # the default language owns the plain URLs
+  languages: [en, de, fr] # two or more entries switch i18n on
+  extra:
+    papermood:
+      default_theme: auto # auto | light | dark
+      show_reading_time: true
+      show_breadcrumbs: true
+      show_toc: true
+      show_post_nav_links: true
+      show_rss_in_list: true
+      show_backlinks: true  # "Pages linking here" from [[wiki links]]
+      posts_prefix: /posts  # scope the home feed and archives to one section
+      home_limit: 5
+      home_info:
+        title: "Hi there \U0001F44B"
+        # The card body comes from content/home/default.md (and its
+        # default.de.md / default.fr.md translations). This plain-text
+        # string is the fallback for a home page without a body.
+        content: >-
+          Welcome to my blog.
+      menu:
+        - name: Posts
+          url: /posts
+        - name: Archives
+          url: /archives
+        - name: Search
+          url: /search
+        - name: Tags
+          url: /tags
+      social:
+        - name: rss
+          url: /feed.xml
+
+# Server-side diagram rendering in every mode. Papermood loads no external
+# JavaScript, so mermaid and svgbob blocks arrive as inline SVG.
+diagrams:
+  render_mode: server
+
+search:
+  enabled: true
+  exclude:
+    - "/404"
+    - "/tags/*"
+
+feed:
+  enabled: true
+
+dev:
+  hot_reload: true
+  browser_reload: true
